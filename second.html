@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form{
+            background-color: rgb(223, 223, 134);
+            width: 30%;
+            height: 100%;
+            margin:0% auto;
+            margin-top:3%;
+            color: green;
+            padding:50px;
+        }
+        form  input{
+            width:90%;
+            padding: 8px;
+        }
+        form pre .container{
+            width:43%;
+        }
+        form #first{
+            text-align: center;
+        }
+        form button{
+            background-color: green;
+            padding-inline: 30px;
+            padding-block: 5px;
+            margin-left: 40%;
+            text-align: center;
+        }
+        form textarea{
+            padding: 20px;
+        }
+    
+    </style>
+</head>
+<body>
+    <form>
+        <h3 id="first">Supplier Contact Info Form Template</h3>
+        <label>Company name:</label><br><br>
+        <input type="text"><br><br><br>
+        <label>Contact name:</label><br>
+       <pre><input class="container" type="text" placeholder="First"> <input class="container" type="text" placeholder="Last"></pre><br>
+       <label>Email adress:</label> <br><br>
+       <input type="email"><br><br><br>
+       <label>Phone number:</label><br><br>
+       <input type="number" placeholder="000 000 000"><br><br><br>
+       <label>Postal adress:</label><br><br>
+       <input type="text" placeholder="Street adress"><br><br>
+       <input type=" text" placeholder="Street adress line 2">
+       <pre><input class="container" type="text" placeholder="City"> <input class="container" type="text" placeholder="Region" ></pre>
+       <pre><input  class="container" type="text" placeholder="Postal/Zip code"> <input class="container"  type="text" placeholder="Romania"></pre><br>
+       <label>Working days:</label><br><br>
+       <input type="text"><br><br><br>
+       <label>Verification*</label><br><br>
+       <textarea cols="30" rows="1">I am not a robot.</textarea><br><br>
+       <button>SUBMIT FORM</button>
+    
+
+
+    </form>
+    
+</body>
+</html>
