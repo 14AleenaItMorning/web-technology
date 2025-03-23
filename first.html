@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: rgb(32, 163, 32);
+            height:80%;
+            width: 40%;
+            margin: 0% auto;
+            border-radius: 10px;
+            padding-block: 30px;
+        }
+        form div{
+            background-color: rgb(83, 129, 83);
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 10px;
+            margin-inline: 30px;
+            margin-top: 3px;
+        }
+        form div input{
+            background-color: white;
+            padding:1%;
+            border-radius: 5px;
+            width:40% ;
+            border: none;
+        }
+       
+        form h3{
+            margin:30px 0px 0px 20px;
+            
+        }
+        form div pre .first{
+            width: 5%;
+        }
+        form div #one{
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <h3>Step 1:Your details</h3>
+        <div><label>Name</label>
+        <input type="text" style="margin-left:30% ;">    </div>
+        <div><label>Email</label>
+        <input type="text" style="margin-left:30% ;"></div>
+        <div><label>Phone</label>
+        <input type="number" style="margin-left:30% ;"></div>
+        <h3>Step 2: Delivery Adress</h3>
+        <div><label id="one">Address</label>
+        <textarea style="margin-left:28% ; border-radius: 8px;"> </textarea>
+        </div>
+        <div><label>Post code</label>
+        <input type="text" style="margin-left:26% ;"></div>
+        <div><label>Country</label>
+        <input type="text" style="margin-left:27% ;"></div>
+        <h3>Step 3: Card Details</h3>
+        <div><label>Card type</label><br>
+        <pre><input class="first" type="radio" style="margin-left: 30px;">VISA  <input type="radio" class="first">AmEx  <input type="radio" class="first">Mastercard </pre>
+</div>
+<div><label>Card number</label>
+<input type="text" style="margin-left: 24%;"></div>
+<div><label>Security code</label>
+<input type="text" style="margin-left: 24%;"></div>
+<div><label>Name on card</label>
+<input type="text" style="margin-left: 24%;"></div><br><br>
+<button style="padding: 10PX; margin-left:35% ; border-radius: 50px; background-color:black; color: white; width: 150px;">BUY IT!</button>
+    </form>
+    
+</body>
+</html>
